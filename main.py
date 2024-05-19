@@ -44,7 +44,7 @@ def get_data_generator(root_data=r"C:\Users\D E L L\Downloads\nam_code\dataset\d
     return generator
 
 
-epochs = 50
+epochs = 100
 if __name__ == "__main__":
     model = Model([2500,1200,1])
     data_gen = get_data_generator(batch_size=64)
